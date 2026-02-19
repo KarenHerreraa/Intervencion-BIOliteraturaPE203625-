@@ -2,23 +2,46 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: #333;
+    color: #2c2c2c;
     background-color: #ffffff;
+    line-height: 1.7;
+    scroll-behavior: smooth;
 }
 
 .container {
     max-width: 1100px;
     margin: auto;
-    padding: 0 25px;
+    padding: 0 30px;
 }
 
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     color: #0B3C5D;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+h2::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #C9A227;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .section {
-    padding: 70px 0;
+    padding: 90px 0;
 }
 
 .section-light {
@@ -28,10 +51,11 @@ h1, h2, h3 {
 /* ================= NAVBAR ================= */
 .navbar {
     background-color: #0B3C5D;
-    padding: 15px 0;
+    padding: 18px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .nav-container {
@@ -44,19 +68,21 @@ h1, h2, h3 {
     color: white;
     font-size: 1.6rem;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 30px;
 }
 
 .nav-list a {
     color: white;
     text-decoration: none;
     font-weight: 400;
+    transition: 0.3s ease;
 }
 
 .nav-list a:hover {
@@ -65,48 +91,95 @@ h1, h2, h3 {
 
 /* ================= HERO ================= */
 .hero {
-    background-color: #0B3C5D;
+    background: linear-gradient(rgba(11,60,93,0.9), rgba(11,60,93,0.9));
     color: white;
-    padding: 90px 0;
+    padding: 120px 0;
     text-align: center;
 }
 
 .hero h1 {
     color: white;
-    font-size: 2.6rem;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 1.1rem;
+    opacity: 0.9;
 }
 
 .hero-buttons {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /* ================= BOTONES ================= */
 .btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 26px;
     background-color: #C9A227;
     color: white;
     text-decoration: none;
     margin: 10px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #a8841e;
 }
 
 .btn-outline {
     background-color: transparent;
     border: 2px solid #C9A227;
+    color: #C9A227;
+}
+
+.btn-outline:hover {
+    background-color: #C9A227;
+    color: white;
+}
+
+/* ================= CARDS (NUEVO) ================= */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    margin-bottom: 30px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 /* ================= LISTAS ================= */
 ul {
-    line-height: 1.8;
+    line-height: 1.9;
+    padding-left: 20px;
 }
 
 .links-list a {
     color: #0B3C5D;
     text-decoration: none;
+    transition: 0.2s;
 }
 
 .links-list a:hover {
     text-decoration: underline;
+    color: #C9A227;
+}
+
+/* ================= CITA ACADÉMICA ================= */
+.quote {
+    border-left: 4px solid #C9A227;
+    padding-left: 20px;
+    font-style: italic;
+    margin: 30px 0;
+    color: #555;
 }
 
 /* ================= FOOTER ================= */
@@ -114,16 +187,17 @@ ul {
     background-color: #0B3C5D;
     color: white;
     text-align: center;
-    padding: 30px 0;
+    padding: 40px 0;
+    font-size: 0.95rem;
 }
 
 .footer p {
-    margin: 5px 0;
+    margin: 8px 0;
 }
 
 .keywords {
-    font-size: 0.9rem;
-    color: #555;
+    font-size: 0.85rem;
+    color: #ccc;
     margin-top: 20px;
+    letter-spacing: 0.5px;
 }
-

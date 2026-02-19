@@ -23,6 +23,7 @@ Gerardo Rivas Lechuga
 David Suarez Pascal
 Juan Manuel Rodríguez Caso
 
+
 ## Intervenciones 2026
 
 ### 2026-1
@@ -42,11 +43,13 @@ Gerardo Rivas Lechuga
 Presentación de la intervención: Liz y Mar
 
 
+
 **Historia de la Biología**
 
 Equipo 1: David Suarez Pascal
 
 Equipo 2: Juan Manuel Rodríguez Caso y Paulina Cruz Castañeda
+
 
 
 **Bases celulares**

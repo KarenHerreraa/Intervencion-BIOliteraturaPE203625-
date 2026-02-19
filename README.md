@@ -26,8 +26,13 @@ Juan Manuel Rodríguez Caso
 **Biología Comparada**
 
 Roxana Acosta Gutiérrez
+
 Erick García Trejo
+
 Gerardo Rivas Lechuga
+
+Presentación de la intervención: Liz y Mar
+
 
 **Historia de la Biología**
 

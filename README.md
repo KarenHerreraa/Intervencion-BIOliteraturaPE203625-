@@ -15,7 +15,7 @@ Erick García Trejo
 
 Gerardo Rivas Lechuga
 
-La presentación de esta intervenión se encuentra en el siguiente enlace: https://docs.google.com/presentation/d/1bUrNGeafJh_HjFo2lmiTizTQHFeMZNfjijpbiiMTX90/edit?slide=id.g2f74a4a48c0_1_0#slide=id.g2f74a4a48c0_1_0
+[Presentación de la intervención de Fundamentos de Biología Comparada](https://docs.google.com/presentation/d/1bUrNGeafJh_HjFo2lmiTizTQHFeMZNfjijpbiiMTX90/edit?slide=id.g2f74a4a48c0_1_0#slide=id.g2f74a4a48c0_1)
 ### 2026-1
 
 **Historia de la Biología**

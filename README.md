@@ -26,7 +26,6 @@ Juan Manuel Rodríguez Caso
 
 ### 2026-1
 
-
 **Biología Comparada**
 
 Roxana Acosta Gutiérrez

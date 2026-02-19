@@ -23,6 +23,7 @@ Juan Manuel Rodríguez Caso
 
 ### 2026-1
 
+
 **Biología Comparada**
 
 Roxana Acosta Gutiérrez
@@ -44,4 +45,5 @@ Paulina Cruz Castañeda
 
 
 **Bases celulares**
+
 Israel Muñoz Velasco

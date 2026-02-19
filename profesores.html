@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Profesores | BIOliteraturaPE203625</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="container nav-container">
+        <a href="index.html" class="brand">BIOliteraturaPE203625</a>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="intervencion.html">Intervenciones</a></li>
+                <li><a href="evaluacion.html">Evaluación</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<section class="section container fade-in" style="margin-top:120px;">
+    <h1>Profesores responsables de las intervenciones</h1>
+    <p>
+        Este apartado reúne la información correspondiente a las intervenciones
+        del proyecto BIOliteraturaPE203625 realizadas en la Licenciatura en Biología.
+    </p>
+
+    <p>
+        Repositorio del proyecto:
+        <a href="https://github.com/lmichan/BIOliteraturaPE203625" target="_blank">
+            github.com/lmichan/BIOliteraturaPE203625
+        </a>
+    </p>
+
+    <p>
+        Página general:
+        <a href="https://karenherreraa.github.io/Intervencion-BIOliteraturaPE203625/" target="_blank">
+            Plataforma oficial de intervenciones
+        </a>
+    </p>
+</section>
+
+
+<!-- ================= 2025 ================= -->
+<section class="section section-light">
+    <div class="container fade-in">
+        <h2>Intervenciones 2025</h2>
+
+        <h3>Semestre 2025-2 | Biología Comparada</h3>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Roxana Acosta Gutiérrez</h3>
+            </div>
+
+            <div class="card">
+                <h3>Erick García Trejo</h3>
+            </div>
+
+            <div class="card">
+                <h3>Gerardo Rivas Lechuga</h3>
+            </div>
+
+        </div>
+
+        <div class="card" style="margin-top:40px;">
+            <strong>Presentación de la intervención:</strong><br>
+            <a href="https://docs.google.com/presentation/d/1bUrNGeafJh_HjFo2lmiTizTQHFeMZNfjijpbiiMTX90/edit" target="_blank">
+                Ver presentación (Google Slides)
+            </a>
+        </div>
+
+        <h3 style="margin-top:60px;">Semestre 2026-1 | Historia de la Biología</h3>
+
+        <div class="grid">
+            <div class="card">
+                <h3>David Suarez Pascal</h3>
+            </div>
+            <div class="card">
+                <h3>Juan Manuel Rodríguez Caso</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= 2026 ================= -->
+<section class="section">
+    <div class="container fade-in">
+        <h2>Intervenciones 2026</h2>
+
+        <h3>Semestre 2026-1 | Biología Comparada</h3>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Roxana Acosta Gutiérrez</h3>
+            </div>
+            <div class="card">
+                <h3>Erick García Trejo</h3>
+            </div>
+            <div class="card">
+                <h3>Gerardo Rivas Lechuga</h3>
+            </div>
+        </div>
+
+        <div class="card" style="margin-top:40px;">
+            <strong>Presentación:</strong> Liz y Mar
+        </div>
+
+
+        <h3 style="margin-top:60px;">Historia de la Biología</h3>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Equipo 1</h3>
+                <p>David Suarez Pascal</p>
+            </div>
+
+            <div class="card">
+                <h3>Equipo 2</h3>
+                <p>Juan Manuel Rodríguez Caso</p>
+                <p>Paulina Cruz Castañeda</p>
+            </div>
+        </div>
+
+
+        <h3 style="margin-top:60px;">Bases Celulares</h3>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Israel Muñoz Velasco</h3>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <p>
+            © 2026 Proyecto BIOliteraturaPE203625 |
+            Licenciatura en Biología |
+            Universidad Nacional Autónoma de México
+        </p>
+    </div>
+</footer>
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("show");
+    }
+  });
+});
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

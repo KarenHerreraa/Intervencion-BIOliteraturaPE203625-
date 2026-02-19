@@ -1,11 +1,8 @@
-/* ================= GLOBAL ================= */
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: #2c2c2c;
-    background-color: #ffffff;
+    color: #1f1f1f;
     line-height: 1.7;
-    scroll-behavior: smooth;
 }
 
 .container {
@@ -14,48 +11,27 @@ body {
     padding: 0 30px;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Playfair Display', serif;
     color: #0B3C5D;
-    margin-bottom: 15px;
-}
-
-h1 {
-    font-size: 2.8rem;
-}
-
-h2 {
-    font-size: 2rem;
-    position: relative;
-    padding-bottom: 10px;
-}
-
-h2::after {
-    content: "";
-    width: 60px;
-    height: 3px;
-    background-color: #C9A227;
-    position: absolute;
-    left: 0;
-    bottom: 0;
 }
 
 .section {
-    padding: 90px 0;
+    padding: 100px 0;
 }
 
 .section-light {
     background-color: #f4f7fa;
 }
 
-/* ================= NAVBAR ================= */
+/* NAVBAR */
 .navbar {
     background-color: #0B3C5D;
     padding: 18px 0;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .nav-container {
@@ -66,69 +42,70 @@ h2::after {
 
 .brand {
     color: white;
-    font-size: 1.6rem;
-    text-decoration: none;
     font-weight: 600;
-    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-size: 1.4rem;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 25px;
 }
 
 .nav-list a {
     color: white;
     text-decoration: none;
-    font-weight: 400;
-    transition: 0.3s ease;
+    transition: 0.3s;
 }
 
 .nav-list a:hover {
     color: #C9A227;
 }
 
-/* ================= HERO ================= */
+/* HERO */
 .hero {
-    background: linear-gradient(rgba(11,60,93,0.9), rgba(11,60,93,0.9));
+    background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
     color: white;
-    padding: 120px 0;
     text-align: center;
 }
 
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(11,60,93,0.85);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
 .hero h1 {
-    color: white;
     font-size: 3rem;
-    margin-bottom: 20px;
+    color: white;
 }
 
 .hero p {
-    max-width: 750px;
-    margin: auto;
-    font-size: 1.1rem;
-    opacity: 0.9;
+    max-width: 700px;
+    margin: 20px auto;
 }
 
-.hero-buttons {
-    margin-top: 30px;
-}
-
-/* ================= BOTONES ================= */
+/* BOTONES */
 .btn {
-    display: inline-block;
-    padding: 12px 26px;
+    padding: 12px 28px;
     background-color: #C9A227;
     color: white;
     text-decoration: none;
     margin: 10px;
     border-radius: 4px;
-    transition: 0.3s ease;
-    font-weight: 500;
-}
-
-.btn:hover {
-    background-color: #a8841e;
 }
 
 .btn-outline {
@@ -137,70 +114,47 @@ h2::after {
     color: #C9A227;
 }
 
-.btn-outline:hover {
-    background-color: #C9A227;
-    color: white;
+/* CARDS */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
 }
 
-/* ================= CARDS (NUEVO) ================= */
 .card {
     background: white;
     padding: 30px;
     border-radius: 6px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
-    margin-bottom: 30px;
-    transition: 0.3s ease;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    transition: 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
 }
 
-/* ================= LISTAS ================= */
-ul {
-    line-height: 1.9;
-    padding-left: 20px;
+/* ANIMACIONES */
+.fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1s ease;
 }
 
-.links-list a {
-    color: #0B3C5D;
-    text-decoration: none;
-    transition: 0.2s;
+.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
-.links-list a:hover {
-    text-decoration: underline;
-    color: #C9A227;
-}
-
-/* ================= CITA ACADÉMICA ================= */
-.quote {
-    border-left: 4px solid #C9A227;
-    padding-left: 20px;
-    font-style: italic;
-    margin: 30px 0;
-    color: #555;
-}
-
-/* ================= FOOTER ================= */
+/* FOOTER */
 .footer {
     background-color: #0B3C5D;
     color: white;
     text-align: center;
     padding: 40px 0;
-    font-size: 0.95rem;
-}
-
-.footer p {
-    margin: 8px 0;
 }
 
 .keywords {
-    font-size: 0.85rem;
-    color: #ccc;
-    margin-top: 20px;
-    letter-spacing: 0.5px;
-}
-body {
-    background-color: red !important;
+    font-size: 0.9rem;
+    color: #666;
 }

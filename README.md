@@ -29,6 +29,7 @@ Erick García Trejo
 Gerardo Rivas Lechuga
 
 **Historia de la Biología**
+
 David Suarez Pascal
 Juan Manuel Rodríguez Caso
 Paulina Cruz Castañeda

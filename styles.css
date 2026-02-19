@@ -201,3 +201,6 @@ ul {
     margin-top: 20px;
     letter-spacing: 0.5px;
 }
+body {
+    background-color: red !important;
+}

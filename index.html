@@ -1,104 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>BIOliteraturaPE203625 | Plataforma Académica</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<title>Proyecto Académico | UNAM</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Enlace a CSS -->
+<link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
-<header class="navbar">
-    <div class="container nav-container">
-        <a href="index.html" class="brand">BIOliteraturaPE203625</a>
-        <nav>
-            <ul class="nav-list">
-                <li><a href="marco-teorico.html">Marco Teórico</a></li>
-                <li><a href="intervencion.html">Intervenciones</a></li>
-                <li><a href="profesores.html">Profesores</a></li>
-                <li><a href="evaluacion.html">Evaluación</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+<nav>
+<h1>Proyecto Académico</h1>
+<div>
+<a href="#inicio">Inicio</a>
+<a href="#objetivos">Objetivos</a>
+<a href="#metodologia">Metodología</a>
+<a href="#impacto">Impacto</a>
+</div>
+</nav>
 
-
-<!-- HERO INSTITUCIONAL -->
-<section class="hero">
-    <div class="overlay"></div>
-    <div class="container hero-content fade-in">
-        <h1>Proyecto BIOliteraturaPE203625</h1>
-        <p>
-            Desarrollo de competencias informacionales en la Licenciatura en Biología
-            – Plan de Estudios 2024
-        </p>
-        <div class="hero-buttons">
-            <a href="intervencion.html" class="btn">Ver Intervenciones</a>
-            <a href="evaluacion.html" class="btn btn-outline">Ver Evaluaciones</a>
-        </div>
-    </div>
+<!-- INICIO -->
+<section id="inicio">
+<div class="glass">
+<h2>Proyecto de Investigación Biomédica</h2>
+<p>
+Modelo conceptual para el desarrollo de competencias informacionales mediante ontologías biomédicas.
+</p>
+<p>
+Integración de tecnología, análisis semántico y evaluación crítica de literatura científica.
+</p>
+<button>Explorar más</button>
+</div>
 </section>
 
-
-<section class="section container fade-in">
-    <h2>Resumen Ejecutivo</h2>
-    <div class="card">
-        <p>
-            Las intervenciones implementadas durante 2025-2, 2026-1 y 2026-2
-            fortalecen las competencias informacionales mediante estrategias
-            didácticas centradas en la literatura científica y el uso de Zotero.
-        </p>
-        <p class="keywords">
-            <strong>Palabras clave:</strong> bioliteratura, competencias informacionales,
-            Zotero, acceso abierto, APA 7.
-        </p>
-    </div>
+<!-- OBJETIVOS -->
+<section id="objetivos">
+<div class="glass">
+<h2>Objetivos</h2>
+<ul>
+<li>Optimizar la búsqueda y análisis de literatura científica</li>
+<li>Entender el impacto de la tecnología en la generación del conocimiento</li>
+<li>Desarrollar habilidades para evaluar y visualizar datos biomédicos</li>
+</ul>
+</div>
 </section>
 
-
-<section class="section section-light">
-    <div class="container fade-in">
-        <h2>Componentes de la Intervención</h2>
-        <div class="grid">
-            <div class="card">Introducción al proyecto y biblioteca digital.</div>
-            <div class="card">Creación de cuenta y navegación en Zotero.</div>
-            <div class="card">DOI, metadatos, revistas y acceso abierto.</div>
-            <div class="card">Principios del estilo APA 7.</div>
-            <div class="card">Uso estratégico de palabras clave.</div>
-            <div class="card">Sistema de etiquetas en Zotero.</div>
-        </div>
-    </div>
+<!-- METODOLOGIA -->
+<section id="metodologia">
+<div class="glass">
+<h2>Metodología</h2>
+<p>
+Uso de ontologías biomédicas, minería de texto y análisis bibliométrico.
+</p>
+<p>
+Aplicación de herramientas estadísticas y visualización avanzada.
+</p>
+</div>
 </section>
 
+<!-- IMPACTO -->
+<section id="impacto">
+<div class="glass">
+<h2>Impacto Académico</h2>
+<p>
+Fortalecimiento de competencias informacionales en estudiantes de ciencias.
+</p>
+<p>
+Integración de tecnologías semánticas en la educación superior.
+</p>
+</div>
+</section>
 
-<footer class="footer">
-    <div class="container">
-        <p>
-            © 2026 Proyecto BIOliteraturaPE203625 |
-            Licenciatura en Biología |
-            Universidad Nacional Autónoma de México
-        </p>
-    </div>
-</footer>
-
-<script>
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.classList.add("show");
-    }
-  });
-});
-document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>

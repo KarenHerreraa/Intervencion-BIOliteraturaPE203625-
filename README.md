@@ -6,6 +6,7 @@ Este repositorio reune toda la información sobre las intervenciones del proyect
 ### 2025-2
 
 **Biología Comparada**
+
 Roxana Acosta Gutiérrez
 Erick García Trejo
 Gerardo Rivas Lechuga
@@ -13,6 +14,7 @@ Gerardo Rivas Lechuga
 ### 2026-1
 
 **Historia de la Biología**
+
 David Suarez Pascal
 Juan Manuel Rodríguez Caso
 
@@ -21,6 +23,7 @@ Juan Manuel Rodríguez Caso
 ### 2026-1
 
 **Biología Comparada**
+
 Roxana Acosta Gutiérrez
 Erick García Trejo
 Gerardo Rivas Lechuga

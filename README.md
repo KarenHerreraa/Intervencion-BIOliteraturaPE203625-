@@ -37,7 +37,11 @@ Presentación de la intervención: Liz y Mar
 **Historia de la Biología**
 
 David Suarez Pascal
+
 Juan Manuel Rodríguez Caso
+
 Paulina Cruz Castañeda
 
+
+**Bases celulares**
 Israel Muñoz Velasco
